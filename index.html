@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yêu thương 💗</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      overflow: hidden;
+      font-family: 'Arial', sans-serif;
+    }
+    video.bg-video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+      object-fit: cover;
+      filter: brightness(0.8);
+    }
+    .overlay-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+      font-size: 36px;
+      font-weight: bold;
+      text-shadow: 0 0 15px #ff69b4;
+    }
+  </style>
+</head>
+<body>
+  <video class="bg-video" autoplay muted loop>
+    <source src="501276105_8532310760227093_2628808193864894255_n.mp4" type="video/mp4" />
+    Trình duyệt của bạn không hỗ trợ video nền.
+  </video>
+  <div class="overlay-text">
+    Thịnh 💗 Quỳnh <br />
+    Mãi bên nhau nhé!
+  </div>
+</body>
+</html>
